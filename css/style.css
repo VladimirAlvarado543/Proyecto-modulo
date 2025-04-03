@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.card { 
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #675050;
+    font-family: "Rock Salt", cursive;
+    background-color: rgba(255, 255, 255, 0.521);
+    text-align: center;
+    padding: 1px;
+}
+.logo img {
+    width: 120px;
+    height: auto;
+}
+
+.card img {
+    width: 100%;
+}
+.card-content {
+    padding: 35px;
+    justify-content: center;
+    
+}
+.tarjeta {
+    display: flex;
+    background-color: rgba(252, 149, 14, 0.562);
+    justify-content: center;
+    padding: 100px;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/wood_pattern.png');
+}
+.card h1{
+    font-family: "Satisfy", cursive;
+}
+.card:hover{
+    background-color: rgba(252, 248, 240, 0.756);
+    transform: scale(1.05);
+}
+.div1 {
+    background-color: coral;
+    text-align: center;
+    padding: 30px;
+    background-image:url(../img/pizza.jpg);
+}
+.div1 button{
+    background-color: rgba(239, 187, 123, 0.892);
+    color: black;
+    margin: initial;
+    border-radius: 30px;
+    font-family: "Rock Salt", cursive;
+}
+.div1 button:hover
+{
+    transform: scale(1.05);
+}
+.div1 p{
+    font-size: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a31818;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+header {
+    background-color: #a31818; 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4c430; 
+}
