@@ -1,4 +1,27 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .faq h2 {
+        font-size: 2em;
+    }
+
+    .faq-item h3 {
+        font-size: 1.2em;
+    }
+
+    .suggestions h2 {
+        font-size: 1.8em;
+    }
+}
 .italianno-regular {
     font-family: "Italianno", cursive;
     font-weight: 400;
